@@ -190,6 +190,22 @@ footer span {
 	font-size: 14px;
 }
 
-@media (min-width: 768px)
+/*tablet*/
+@media (min-width: 768px) {
+  header {
+	border-width: 100%;
+  }
+  .section-one,
+  .section-two,
+  .section-three {
+	width: 30%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+
+/*monitor*/
 @media (min-width: 1200px)
 
