@@ -55,6 +55,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 header h1 {
@@ -69,6 +70,7 @@ header h1 span {
 
 header nav {
 	padding: 20px 0 5px;
+	width: 100%;
 }
 
 header nav ul {
@@ -134,7 +136,7 @@ header nav ul li a{
 	border-top: 1px solid #eee;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: row-wrap;
 }
 
 .section-one h3 {
@@ -199,11 +201,20 @@ footer span {
   .section-two,
   .section-three {
 	width: 30%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	height: 100%;
-	box-sizing: border-box;
+	padding: 50px 0px;
+	align-items: flex-start;
+	border-bottom: 1px solid #eee;
 }
+  .section-two h3 {
+	padding: 0;
+  }
+  .bottom-section {
+	margin: 0;
+	flex-flow: nowrap;
+  }
+  .main-image img {
+	border-top: 3px solid #77a466;
+  }
 
 
 /*monitor*/
