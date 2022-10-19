@@ -200,11 +200,36 @@ footer span {
   .section-one,
   .section-two,
   .section-three {
-	width: 30%;
+	width: 100%;
 	padding: 50px 0px;
-	align-items: flex-start;
-	border-bottom: 1px solid #eee;
+	border: 1px solid #eee;
+	display: inline-block;
 }
+}
+
+.section-one h3,
+.section-two h3,
+.section-three h3 {
+	text-align: center;
+}
+
+.section-two,
+.section-three {
+	padding: 50px;
+	width: 100%;
+}
+
+.section-two {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.bottom-section {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
   .section-two h3 {
 	padding: 0;
   }
