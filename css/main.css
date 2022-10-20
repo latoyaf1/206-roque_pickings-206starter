@@ -47,10 +47,7 @@ p {
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
-	border-width: 36%;
-	padding: 30px;
-	max-width: 1200px;
-	margin: 0 auto;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -59,9 +56,10 @@ header {
 }
 
 header h1 {
-	margin: 0 -1em;
-	padding: 5px;
+	margin: 0;
+	padding: 38px 20px 20px 20px;
 	border-bottom: 4px solid #77a466;
+	width: 100%;
 }
 
 header h1 span {
@@ -82,7 +80,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-	padding: 10px 10px;
+	padding: 10px 0px;
 }
 
 header nav ul li a{
@@ -193,7 +191,7 @@ footer span {
 }
 
 /*tablet*/
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   header {
 	border-width: 100%;
   }
@@ -242,6 +240,26 @@ footer span {
   }
 
 
-/*monitor*/
-@media (min-width: 1200px)
+/*desktop*/
+@media all and (min-width: 1200px) {
+	header {
+		justify-content: space-between;
+	}
+	
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav ul {
+        display: flex;
+		justify-content: space-between;
+	}
+
+	nav {
+		width: 40%;
+	}
+}
 
