@@ -203,8 +203,6 @@ footer span {
 	border: 1px solid #eee;
 	display: inline-block;
 }
-}
-
 .section-one h3,
 .section-two h3,
 .section-three h3 {
@@ -230,14 +228,15 @@ footer span {
 
   .section-two h3 {
 	padding: 0;
-  }
+}
   .bottom-section {
 	margin: 0;
 	flex-flow: nowrap;
-  }
+}
   .main-image img {
 	border-top: 3px solid #77a466;
-  }
+}
+}
 
 
 /*desktop*/
