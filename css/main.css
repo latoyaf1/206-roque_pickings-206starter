@@ -226,6 +226,8 @@ footer span {
 @media all and (min-width: 1200px) {
 	header {
 		justify-content: space-between;
+		flex-flow: row wrap;
+
 	}
 	
 	header h1 {
